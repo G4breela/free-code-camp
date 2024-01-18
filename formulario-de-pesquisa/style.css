@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: none;
+}
+
+body{
+    background: #52538D;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+#description{
+    font-style: italic;
+}
+
+form{
+    background: #2A2947;
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+fieldset > legend{
+    margin-left: 20px;
+}
+
+fieldset > select{
+    margin-left: 20px;
+}
+
+label, fieldset{
+    display: block;
+    padding: 5px 10px;
+    
+    text-align: left;
+}
+
+label{
+    padding-left: 30px;
+
+}
+
+input{
+    display: inline-block;
+
+    
+}
+
+.personal-information{
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.personal-information::placeholder{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.personal-information-item{
+    margin-bottom: 15px;
+}
+
+Select, option{
+    width: 87%;
+    height: 30px;
+    border-radius: 5px;
+    color: #3b3b4f;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+textarea{
+    margin-left: 20px;
+    width: 92%;
+}
+
+textarea::placeholder{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    display: block;
+    color: #ffffff;
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: #37AF65;
+}
