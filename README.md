@@ -1,4 +1,4 @@
-# free-code-camp
+# Design Responsivo - freeCodeCamp
 Aqui você encontrará os exercícios feitos durante a Certificação Design responsivo para a web pela FreeCodeCamp
 
 
