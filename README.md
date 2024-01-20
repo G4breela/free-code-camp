@@ -2,7 +2,7 @@
 Aqui você encontrará os exercícios feitos durante a Certificação Design responsivo para a web pela FreeCodeCamp
 
 
-<a href="https://g4breela.github.io/free-code-camp/" target="_blank"> Executar Cafe Menu </a>
+<a href="https://g4breela.github.io/free-code-camp/cafe-menu/index.html" target="_blank"> Executar Cafe Menu </a>
 
 <a href="https://g4breela.github.io/free-code-camp/" target="_blank"> Executar Colored Markers </a>
 
