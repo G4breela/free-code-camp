@@ -11,7 +11,14 @@
 }
 
 body{
-    background: #52538D;
+    background:  linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
@@ -36,7 +43,7 @@ p{
 }
 
 form{
-    background: #2A2947;
+    background: rgba(27, 27, 50, 0.8);
     width: 80%;
     max-width: 600px;
     min-width: 300px;
