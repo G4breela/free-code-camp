@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+main{
+    width: 98%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+h1{
+    padding: 20px;
+    font-size: 2.3em;
+}
+
+p{
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+#img-div{
+    width: 98%;
+    max-height: auto;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+figure{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#image{
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#img-caption{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
+
+.bolder{
+    font-weight: 700;
+}
+
+.normal{
+    font-weight: 400;
+}
+
+.italic{
+    font-style: italic;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+ul{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: left;
+}
+
+ul > li{
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+blockquote{
+    width: 40%;
+    padding: 10px;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+blockquote > p{
+    margin-top: 5px;
+}
+
+p:last-of-type{
+    margin: 13px 0;
+    font-size: 1.2em;
+}
+
+#tribute-link{
+    color: #000;
+}
