@@ -11,12 +11,18 @@
     <p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
     <form id="survey-form" action="registro.php" method="post">
      
-      <label for="name" id="name-label" class="personal-information-item">Nome <input id="name" type="text" placeholder="Digite seu nome" class="personal-information" required></label>
-      
-      <label for="email" id="email-label" class="personal-information-item">Email <input id="email" type="email" class="personal-information" placeholder="Digite seu e-mail" required></label>
+      <fieldset>
+        <label for="name" id="name-label">Nome <input id="name" type="text" placeholder="Digite seu nome" class="personal-information" required></label>
+      </fieldset>
      
-      <label for="age" id="number-label" class="personal-information-item">Idade (opcional) <input id="number" class="personal-information" type="number" min="10" max="99" placeholder="Idade"></label>
+      <fieldset>
+        <label for="email" id="email-label">Email <input id="email" type="email" class="personal-information" placeholder="Digite seu e-mail" required></label>
+      </fieldset>
       
+      <fieldset>
+        <label for="age" id="number-label">Idade <span class="small-text">(opcional)</span> <input id="number" class="personal-information" type="number" min="10" max="99" placeholder="Idade"></label>
+      </fieldset>
+
       <fieldset>
         <legend>Qual opção melhor descreve sua função atual?</legend>
         <select id="dropdown">
@@ -30,7 +36,7 @@
       </fieldset>
       <fieldset>
         <legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
-       <label for="definitely"><input type="radio" id="definitely" name="recommend" value="definitely"> Definitivamente</label>
+       <label for="definitely"><input type="radio" id="definitely" name="recommend" value="definitely" checked> Definitivamente</label>
 
        <label for="maybe"><input type="radio" id="maybe" name="recommend" value="maybe"> Talvez</label>
 
@@ -38,6 +44,7 @@
       </fieldset>
 
       <fieldset>
+        <legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
         <select name="favorite" id="favorite">
           <option value="">Selecione uma opção</option>
           <option value="challegens">Desafios</option>
@@ -47,8 +54,8 @@
         </select>
       </fieldset>
 
-      <fieldset>
-        <legend>O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</legend>
+      <fieldset id="checkbox">
+        <legend>O que você gostaria de ver melhorado? <span class="small-text">(Marque todas as opções aplicáveis)</span></legend>
          <label for="front-end-projects"><input type="checkbox" name="front-end" id="front-end-projects" value="Front-end Projects"> Front-end Projects</label>
 
             <label for="back-end-projects"><input type="checkbox" name="back-end" id="back-end-projects" value="Back-end Projects"> Back-end Projects</label>
