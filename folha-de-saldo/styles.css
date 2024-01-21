@@ -10,16 +10,16 @@ body{
 }
 
 span[class~="sr-only"]{
-    position: absolute;
-    width:1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
+    position: absolute !important;
+    width:1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
 }
 
 section{
@@ -65,4 +65,12 @@ h1 .flex span:last-of-type{
     width: 4.5rem;
     text-align: right;
     font-weight: bold;
+}
+
+.table-wrap{
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span{
+    font-weight: normal;
 }
