@@ -125,6 +125,15 @@ tr.total:hover{
     background: #99c9ff;
 }
 
-td[class="current"]{
+td.current{
     font-style: italic;
+}
+
+tr.data{
+    background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+
+tr.data th{
+    text-align: left;
+    padding: 0.3rem 0 0 0.5rem;
 }
